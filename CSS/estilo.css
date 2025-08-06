@@ -71,28 +71,105 @@ body {
 }
 
 
-.About-Me{
-    background-color:aqua;
-    width: 100vw;
-    height: 100vh;
+.home {
+    background-color: #F1F8F6;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
-.Projects{
-    background-color:blue;
-    width: 100vw;
-    height: 100vh;
+.home-contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 90px;
 }
 
-
-.Skills{
-    background-color:brown;
-    width: 100vw;
-    height: 100vh;
+.home-texto h1 {
+    font-size: 2.5rem;
+    color: #3C8978;
 }
 
+.home-texto h2 {
+    font-size: 1.5rem;
+    color: #25695D;
+    margin-top: 10px;
+}
 
-.Contact{
-    background-color:cadetblue;
-    width: 100vw;
-    height: 100vh;
+.home-texto p {
+    font-size: 1rem;
+    color: #444;
+    margin-top: 20px;
+    padding: 0 15px;
+    line-height: 1.6;
+    width: 1000px;
+}
+
+.home-imagen img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    border: 4px solid #B1CCC5;
+}
+
+.about_me {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+}
+
+.about_me-contenedor {
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    margin-bottom: 20px;
+}
+
+.about_me-texto h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #3C8978;
+}
+
+.about_me-texto h2 {
+    font-size: 20px;
+    color: #3C8978;
+    margin-bottom: 10px;
+    border-left: 5px solid #25695D;
+    padding-left: 10px;
+    border-radius: 20px;
+    border-color: #3C8978;
+}
+
+.about_me-texto ul {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.05);
+    list-style-type: none;
+}
+
+.flecha-arriba {
+    width: 3vw;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #556B7B;
+    color: white;
+    padding: 12px 15px;
+    border-radius: 50%;
+    font-size: 24px;
+    text-decoration: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+    transition: background-color 0.3s ease;
+}
+
+.flecha-arriba:hover {
+    background-color: #33414f;
 }
