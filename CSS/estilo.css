@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #333333;
+}
+
+body {
+    background-color: #FFF8F3;
+    color: #333;
+}
+
+.barra-navegacion {
+    background-color: #B1CCC5;
+    padding: 1em 2em; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.contenedor-nav {
+    max-width: 100vw;
+    max-height: 10vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.contenedor-imagen{
+    max-width: 10px;
+}
+
+.logo {
+    width: 17vw;
+    height: auto;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.menu a {
+    color: #3C8978;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #25695D;
+}
+
+.boton {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #388E3C;
+}
+
+
+.About-Me{
+    background-color:aqua;
+    width: 100vw;
+    height: 100vh;
+}
+
+.Projects{
+    background-color:blue;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.Skills{
+    background-color:brown;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.Contact{
+    background-color:cadetblue;
+    width: 100vw;
+    height: 100vh;
+}
