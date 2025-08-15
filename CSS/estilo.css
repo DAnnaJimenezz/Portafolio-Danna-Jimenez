@@ -86,7 +86,7 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 90px;
+    gap: 20px;
 }
 
 .home-texto h1 {
@@ -101,7 +101,7 @@ body {
 }
 
 .home-texto p {
-    font-size: 1rem;
+    font-size: 20px;
     color: #444;
     margin-top: 20px;
     padding: 0 15px;
@@ -118,40 +118,152 @@ body {
     border: 4px solid #B1CCC5;
 }
 
-.about_me {
-    background-color: #f9f9f9;
-    padding: 60px 20px;
-}
 
-.about_me-contenedor {
-    max-width: 900px;
-    margin: 0 auto;
-    display: grid;
-    margin-bottom: 20px;
-}
-
-.about_me-texto h1 {
+.academic_training-contenedor {
+    background-color: #f4f4f4;
+    padding: 40px 0;
     text-align: center;
-    font-size: 36px;
-    color: #3C8978;
+    width: 100%;
+    height: 100%;
 }
 
-.about_me-texto h2 {
-    font-size: 20px;
-    color: #3C8978;
-    margin-bottom: 10px;
-    border-left: 5px solid #25695D;
-    padding-left: 10px;
-    border-radius: 20px;
-    border-color: #3C8978;
+.academic_training h1 {
+    margin-bottom: 20px;
+    color: #2e7d66;
 }
 
-.about_me-texto ul {
-    background-color: #ffffff;
-    padding: 10px;
+.academic_training h2 {
+    margin-bottom: 30px;
+    color: #444;
+}
+
+.tarjetas-contenedor {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.tarjeta {
+    background: white;
+    padding: 20px;
     border-radius: 12px;
-    box-shadow: 0 0 12px rgba(0,0,0,0.05);
-    list-style-type: none;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tarjeta h3 {
+    color: #2e7d66;
+    margin-bottom: 10px;
+}
+
+.tarjeta p {
+    margin-bottom: 15px;
+    color: #555;
+    text-align: justify;
+}
+
+.btn {
+    background: #2e7d66;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #256050;
+}
+
+.btn-disabled {
+    background: #ccc;
+    color: #555;
+    padding: 10px 15px;
+    border-radius: 6px;
+    border: none;
+    cursor: not-allowed;
+}
+
+
+.skills {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+    background-color: #f9f9f9;
+}
+
+.contenedor-principal {
+    max-width: 1200px;
+    width: 100%;
+    text-align: center;
+}
+
+.skills h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+    color: #333;
+}
+
+
+.skills-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.habilidad-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    width: 350px; /* Más grandes */
+    padding: 1.5rem;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.habilidad-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.15);
+}
+
+
+.habilidad-card figure {
+    margin: 0;
+}
+
+.habilidad-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.habilidad-card figcaption {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #444;
+}
+
+.habilidad-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #555;
+    font-size: 1rem;
+}
+
+.habilidad-card ul li {
+    margin-bottom: 0.5rem;
 }
 
 .flecha-arriba {

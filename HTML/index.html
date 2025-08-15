@@ -7,6 +7,7 @@
     <title>Portafolio</title>
 </head>
 <body>
+    <!-- Barra de navegación -->
     <header class="barra-navegacion">
         <div class="contenedor-nav">
             <div class="contenedor-imagen">
@@ -15,16 +16,16 @@
             <nav>
                 <ul class="menu">
                     <li><a href="#home" class="activa">Home</a></li>
-                    <li><a href="#about_me">About Me</a></li>
-                    <li><a href="#proyectos">Projects</a></li>
+                    <li><a href="#academic_training">Academic Training</a></li>
                     <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
                 </ul>
             </nav>
             <a href="#contacto"><button class="boton">Contact</button></a>
         </div>
     </header>
 
-
+    <!-- Home -->
     <section id="home" class="home">
         <div class="home-contenedor">
             <div class="home-texto">
@@ -40,55 +41,111 @@
         </div>
     </section>
     
-    <section id="about_me" class="about_me">
-        <div class="about_me-contenedor">
-            <div class="about_me-texto">
-                <h1>Acerca de mí</h1>
+    <section id="academic_training" class="academic_training">
+        <div class="academic_training-contenedor">
+            <h1>Acerca de mí</h1>
+            <h2>Formación Académica</h2>
+            <div class="tarjetas-contenedor">
+                <!-- Bachiller -->
+                <div class="tarjeta">
+                    <h3>Bachiller Académico</h3>
+                    (Culminado): 2016 - 2022
+                    <p>Fue la primera etapa que culminé, realizando mis estudios en el Colegio Liceo Mayor de Soacha, donde tuve mi primer acercamiento a lo que vendría en mi vida personal y profesional. Me destaqué por mi responsabilidad y participación activa en proyectos, asumiendo roles de liderazgo. Aprendí a enfrentar los retos constantes de convivencia con los demás y logré superarlos con éxito.</p>
+                    <a href="../DOCS/DIPLOMABACHILLER.pdf" target="_blank" class="btn">📄 Abrir documento</a>
+                </div>
 
-                <h2>Formación Académica</h2>
-                <ul>
-                    <li><strong>Bachiller Académico</strong> (Culminado): 2016 - 2022</li>
-                    <li><strong>Técnico</strong> en Programación de Software (Culminado): 2021 - 2022</li>
-                    <li><strong>Tecnólogo</strong> en Análisis y Desarrollo de Software (Culminado): 2023 - 2024</li>
-                    <li><strong>Profesional</strong> en Ingeniería de Software (En curso): 2025</li>
-                </ul>
+                <!-- Técnico -->
+                <div class="tarjeta">
+                    <h3>Técnico en Programación de Software</h3>
+                    (Culminado): 2021 - 2022
+                    <p>Al igual que la etapa anterior, este fue un paso clave para acercarme a la profesión que siempre me ha apasionado. Desde pequeña me atrajo la tecnología y el Técnico en Programación me permitió descubrir lo que hay más allá de lo que vemos a diario, entendiendo el trabajo detrás del backend, el frontend y la planificación de un proyecto desde su inicio hasta su entrega.</p>                    
+                    <a href="../DOCS/CERTIFICADOTECNICO.pdf" target="_blank" class="btn">📄 Abrir documento</a>
+                </div>
 
-                <h2>Habilidades Blandas</h2>
-                <ul>
-                    <li>Comunicación asertiva</li>
-                    <li>Trabajo en equipo</li>
-                    <li>Responsabilidad</li>
-                    <li>Proactividad</li>
-                </ul>
+                <!-- Tecnólogo -->
+                <div class="tarjeta">
+                    <h3>Tecnólogo en Análisis y Desarrollo de Software</h3>
+                    (Culminado): 2023 - 2024
+                    <p>En esta etapa amplié mis conocimientos más allá de lo aprendido en el técnico. Por primera vez desarrollé un proyecto desde cero, experimentando todo el proceso: levantar requerimientos, modelarlos, diseñar y llevarlos a funcionamiento. Fue una experiencia llena de retos, aprendizajes y motivación para seguir creciendo profesionalmente.</p>
+                    <a href="../DOCS/CERTIFICADOTECNOLOGO.pdf" target="_blank" class="btn">📄 Abrir documento</a>
+                </div>
 
-                <h2>Habilidades Técnicas</h2>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Laravel / PHP</li>
-                    <li>Python</li>
-                    <li>SQL</li>
-                    <li>Git</li>
-                    <li>Trello</li>
-                    <li>Metodologías Ágiles</li>
-                    <li>Algoritmia</li>
-                </ul>
+                <!-- Profesional -->
+                <div class="tarjeta en-curso">
+                    <h3>Profesional Ingeniería de Software</h3>
+                    (En curso): 2025           
+                    <p>Esta etapa que comienza se vendran nuevos retos, nuevos aprendizajes, nuevos progresos que ayudaran tanto personal a conocer aun más sobre esta profesion que me apasiona desde siempre y ahora el sueño haciendose más grande de cumplir nuevas metas y sobre todo de nuevos retos.</p>
+                    <button class="btn-disabled">⏳ En curso</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    
+    <!-- Sección de Habilidades -->
+    <section id="skills" class="skills">
+        <div class="contenedor-principal">
+            <h2>Habilidades</h2>
+            <div class="skills-contenedor">
+
+                <!-- Habilidades Blandas -->
+                <div class="habilidad-card">
+                    <figure>
+                        <img src="../IMG/Habilidades_blandas.webp" alt="Habilidades Blandas">
+                        <figcaption>Habilidades Blandas</figcaption>
+                    </figure>
+                    <ul>
+                        <li>Comunicación asertiva</li>
+                        <li>Trabajo en equipo</li>
+                        <li>Responsabilidad</li>
+                        <li>Proactividad</li>
+                        <li>Trabajo en Equipo</li>
+                        <li>Gestión del Tiempo</li>
+                        <li>Empatía</li>
+                        <li>Creatividad</li>
+                        <li>Adaptabilidad</li>
+                    </ul>
+                </div>
+
+                <!-- Habilidades Técnicas -->
+                <div class="habilidad-card">
+                    <figure>
+                        <img src="../IMG/Habilidades_tecnicas.png" alt="Habilidades Técnicas">
+                        <figcaption>Habilidades Técnicas</figcaption>
+                    </figure>
+                    <ul>
+                        <li>🌐 HTML</li>
+                        <li>🎨 CSS</li>
+                        <li>⚙️ Laravel / PHP</li>
+                        <li>🐍 Python</li>
+                        <li>🗄 SQL</li>
+                        <li>🔗 Git</li>
+                        <li>📋 Trello</li>
+                        <li>🚀 Metodologías Ágiles</li>
+                        <li>🧠 Algoritmia</li>
+                    </ul>
+                </div>
+
+                <!-- Idiomas -->
+                <div class="habilidad-card">
+                    <figure>
+                        <img src="../IMG/Idiomas.jpg" alt="Idiomas">
+                        <figcaption>Idiomas</figcaption>
+                    </figure>
+                    <ul>
+                        <li>Español</li>
+                        Lenguaje Nativo/Nivel: 100%
+                        <li>Ingles</li>
+                        Nivel Intermedio/ Nivel: A2
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
 
-
-    <section id="proyectos" class="projects">
+    <section id="projects" class="projects">
         <div class="projects-contenedor">
             <div class="projects-texto">
-
-            </div>
-        </div>
-    </section>
-
-    <section id="skills" class="skills">
-        <div class="skills-contenedor">
-            <div class="skills-texto">
 
             </div>
         </div>
